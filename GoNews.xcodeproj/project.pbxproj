@@ -13,6 +13,10 @@
 		98C0176629FFED950029BEC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C0176429FFED950029BEC9 /* Main.storyboard */; };
 		98C0176829FFED960029BEC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98C0176729FFED960029BEC9 /* Assets.xcassets */; };
 		98C0176B29FFED960029BEC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98C0176929FFED960029BEC9 /* LaunchScreen.storyboard */; };
+		98C0177329FFEF690029BEC9 /* MyNewsFIle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0177229FFEF690029BEC9 /* MyNewsFIle.swift */; };
+		98C0177829FFF3E60029BEC9 /* ArticleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0177729FFF3E60029BEC9 /* ArticleData.swift */; };
+		98C0177A29FFF3F40029BEC9 /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0177929FFF3F40029BEC9 /* NewsData.swift */; };
+		98C0177C29FFF4A30029BEC9 /* NewsContentHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C0177B29FFF4A30029BEC9 /* NewsContentHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		98C0176729FFED960029BEC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98C0176A29FFED960029BEC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98C0176C29FFED960029BEC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98C0177229FFEF690029BEC9 /* MyNewsFIle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNewsFIle.swift; sourceTree = "<group>"; };
+		98C0177729FFF3E60029BEC9 /* ArticleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleData.swift; sourceTree = "<group>"; };
+		98C0177929FFF3F40029BEC9 /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
+		98C0177B29FFF4A30029BEC9 /* NewsContentHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsContentHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,24 @@
 				98C0175E29FFED950029BEC9 /* AppDelegate.swift */,
 				98C0176029FFED950029BEC9 /* SceneDelegate.swift */,
 				98C0176229FFED950029BEC9 /* ViewController.swift */,
+				98C0177B29FFF4A30029BEC9 /* NewsContentHome.swift */,
 				98C0176429FFED950029BEC9 /* Main.storyboard */,
+				98C0177229FFEF690029BEC9 /* MyNewsFIle.swift */,
+				98C0177629FFF2680029BEC9 /* NewsFIleData */,
 				98C0176729FFED960029BEC9 /* Assets.xcassets */,
 				98C0176929FFED960029BEC9 /* LaunchScreen.storyboard */,
 				98C0176C29FFED960029BEC9 /* Info.plist */,
 			);
 			path = GoNews;
+			sourceTree = "<group>";
+		};
+		98C0177629FFF2680029BEC9 /* NewsFIleData */ = {
+			isa = PBXGroup;
+			children = (
+				98C0177729FFF3E60029BEC9 /* ArticleData.swift */,
+				98C0177929FFF3F40029BEC9 /* NewsData.swift */,
+			);
+			path = NewsFIleData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +160,10 @@
 			files = (
 				98C0176329FFED950029BEC9 /* ViewController.swift in Sources */,
 				98C0175F29FFED950029BEC9 /* AppDelegate.swift in Sources */,
+				98C0177C29FFF4A30029BEC9 /* NewsContentHome.swift in Sources */,
+				98C0177A29FFF3F40029BEC9 /* NewsData.swift in Sources */,
+				98C0177829FFF3E60029BEC9 /* ArticleData.swift in Sources */,
+				98C0177329FFEF690029BEC9 /* MyNewsFIle.swift in Sources */,
 				98C0176129FFED950029BEC9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V9XTX57GV4;
+				DEVELOPMENT_TEAM = R3XNUUV9LZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GoNews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -315,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V9XTX57GV4;
+				DEVELOPMENT_TEAM = R3XNUUV9LZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GoNews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
